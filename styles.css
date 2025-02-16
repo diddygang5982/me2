@@ -20,6 +20,11 @@ p {
     margin: 10px 0;
 }
 
+.preferred-name {
+    font-size: 1.2em;
+    color: #555; /* Slightly lighter color for the preferred name */
+}
+
 a {
     color: #0077cc;
     text-decoration: none;

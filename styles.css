@@ -16,13 +16,19 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 p {
     margin: 10px 0;
 }
 
 .preferred-name {
     font-size: 1.2em;
-    color: #555; /* Slightly lighter color for the preferred name */
+    color: #555;
 }
 
 a {
@@ -40,8 +46,20 @@ a:hover {
 }
 
 .profile-photo {
-    width: 150px; /* Adjust this value to resize the image */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: Makes the image circular */
-    border: 3px solid #0077cc; /* Optional: Adds a border */
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #0077cc;
+}
+
+ul {
+    list-style-type: disc;
+    text-align: left;
+    display: inline-block;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+section {
+    margin-bottom: 30px;
 }

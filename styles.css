@@ -4,10 +4,10 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
+    text-align: center;
 }
 
 header {
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -27,4 +27,16 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.photo-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px; /* Adjust this value to resize the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Makes the image circular */
+    border: 3px solid #0077cc; /* Optional: Adds a border */
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-info {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        .main-info h1 {
+            margin: 0;
+        }
+        .hobbies, .lewis, .course, .job {
+            background: #e7e7e7;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="main-info">
+            <h1>Nathaniel V</h1>
+            <h1>Preferred Name: Nate</h1>
+        </header>
+
+        <section class="lewis">
+			<h2>Year at Lewis: 3</h2>
+			<h2>Lewis major/minor/concentrations: aviation</h2>
+			<h2>Reasons for pursuing this degree: commercial flying</h2>
+        </section>
+
+		<section class="course">
+            <h2>Reasons for Taking This Course</h2>
+            <p>General education.</p>
+        
+
+        <section class="hobbies">
+            <h2>Hobbies and Special Interests</h2>
+            <p>Night walks, but only if I am alone. I can't do them on school days because I have to get up early in the morning.</p>
+        </section>
+
+        <section class="fun-fact">
+            <h2>Fun Fact</h2>
+            <p>I cannot use earbuds, as they fall out within seconds of me putting them on. I also eat the entire core when eating apples.</p>
+        </section>
+    </div>
+</body>
+</html>

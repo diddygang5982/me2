@@ -53,7 +53,7 @@ a:hover {
 }
 
 ul {
-    list-style-type: disc;
+    list-style-type: square; /* Changed to square icons */
     text-align: left;
     display: inline-block;
     margin: 10px 0;
